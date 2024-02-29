@@ -35,20 +35,11 @@ const students = [
         roll: 1
     },
 ]
-// console.log(students[2].roll);
-const topStudent = []
-const studentsOrder = []
-let lowest = students[0].roll;
-for (let i = 0; i < students.length; i++) {
-    const rollNumber = students[i].roll;
-    // console.log(rollNumber);
-    topStudent.push(rollNumber);
-    topStudent.sort();
+// console.log(students[0].roll);
+const rollNumber =students.map(student =>student.roll);
+rollNumber.sort();
+console.log(rollNumber);
 
-
-    // console.log(topStudent);
-   console.log(topStudent);
-}
 
 
 
