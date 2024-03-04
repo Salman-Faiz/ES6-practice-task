@@ -19,5 +19,5 @@ const instructor = [
     { name: "salman", age: 28, position: "junior" },
     { name: "rasik", age: 27, position: "junior" }
 ]
-const seniors =instructor['1'].filter(dev=> dev.name === 'senior')
+const seniors =instructor.filter(dev=> dev.name === 'senior')
 console.log(instructor.name)
